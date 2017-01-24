@@ -1,0 +1,271 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1em;
+    max-width: 400px; 
+	margin: 0 auto; 
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+/***mobile first***/
+    /*** nav and logo***/
+.nav-logo {
+    width:90%;
+    font-size: 1.875em;
+    height: auto;
+    margin: 0 auto;
+}
+.nav-logo h1 {
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid #77a466; 
+    padding-bottom: 15px
+}
+
+.nav-logo nav {
+    text-align: center;
+}
+
+ .nav-logo nav a {
+    color: #77a466;
+    font-size: .5em;
+	text-transform: uppercase; 
+    text-decoration: none;
+	font-weight: bold;
+    display:block;
+    padding: 10px;
+}
+
+.nav-logo span {
+	color: #77a466;
+}
+
+/****top section ****/
+
+.top-section {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 1.875em;
+}
+
+.top-section h3 {
+    font-size: .90em;
+    text-transform: uppercase;
+    color: #77a466; 
+
+}
+.top-section p {
+    font-size: .75em;
+    font-weight: 500;
+   
+}
+
+.main-image {
+    width: 100%;
+    height:auto; 
+}
+.main-image img {
+    width: 100%;
+     border: 3px solid #77a466; 
+}
+
+/***** bottom *****/
+
+.bottom-section {
+    font-size:1.875em;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+.bottom-section h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.section-one, 
+.section-two, 
+.section-three {
+    border-bottom: 1px solid #eee;
+}
+
+.section-one {
+    border-top: 1px solid #eee;
+}
+
+.menu {
+    color: #77a466;
+    font-size: 1em;
+    list-style: none;
+}
+
+.reviews {
+    font-size: .80em;
+}
+.address {
+    font-size: .80em;
+}
+.footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/****TABLET TIME******/
+
+@media all and (min-width:768px) {
+    body {
+        max-width: 768px;
+    }
+
+    
+ /*** nav and logo***/
+    .nav-logo {
+        font-size: 1.875em;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .nav-logo h1 {
+        font-size: 1em;
+        text-align: center;
+        text-transform: uppercase;
+        border-bottom: 3px solid #77a466; 
+        padding-bottom: 15px
+    }
+    .nav-logo nav a {
+        display: inline;
+        padding: 5px;
+        font-size: .7em;
+    }   
+    
+/****** top-section******/
+    .top-section {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        font-size: 1.875em;
+    }
+    .top-section h3 {
+        font-size: .7em;
+        text-transform: uppercase;
+        color: #77a466; 
+    }
+    
+    .top-section p {
+        font-size: .6em;
+    }
+    
+    /***** bottom-section****/
+    .bottom-section {
+        width: 90%;
+        height:auto;
+        margin: 0 auto;
+        font-size: 1.875em;
+    }
+    .bottom-section h4 {
+        font-size: .6em;
+    }
+    .bottom-section li {
+        font-size: .6em;
+    }
+    .bottom-section p {
+        font-size: .6em;
+    }
+    
+    footer {
+        text-align: center;
+    }
+}
+
+/****desktop*****/
+
+@media all and (min-width:940px) {
+    body {
+        max-width: 1200px;
+    }
+/*****nav and logo****/ 
+    .nav-logo {
+        font-size:1.875em;
+        width:90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .nav-logo h1 {
+        font-size: 1em;
+        text-align: left; 
+        width: auto; 
+        float: left; 
+        padding: 10px;
+        border: none;
+    }
+    .nav-logo nav {
+       float: right;
+	   padding: 25px 0px;
+    }
+    .nav-logo nav a {
+        font-size: .5em;
+        padding: 0 10px; 
+        font-weight: bold;
+    }
+        
+    /****top section****/
+    
+    /****bottom****/
+    .bottom-section {
+        width: 90%;
+        height:auto;
+        margin: 0 auto;
+        font-size: 1.875em;
+        
+    }
+    .bottom-section h4 {
+        padding: 0 10px;
+    }
+    
+    .section-one,
+    .section-two {
+        border-right: 1px solid #eee;
+    }
+    .section-one, 
+    .section-two, 
+    .section-three {
+        width: 30%; 
+        float: left; 
+        border-top: 1px solid #eee;
+    }
+    .section-one {
+        padding-bottom: 45px;
+    }
+    .section-three {
+        padding-bottom: 63px;
+    }
+    .reviews,
+    .address {
+        padding: 0 10px;
+    }
+    /***footer***/
+    footer {
+        clear:both;
+        text-align: center;
+    }
+    footer span {
+        font-family: "Wisdom Script", script; 
+        text-transform: lowercase; 
+        color: #77a466; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
