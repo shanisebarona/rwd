@@ -10,6 +10,11 @@ body {
 }
 
 /***mobile first***/
+
+@media {
+    body {
+        max-width: 768px;
+    }
     /*** nav and logo***/
 .nav-logo {
     width:90%;
@@ -118,7 +123,7 @@ body {
 
 @media all and (min-width:768px) {
     body {
-        max-width: 768px;
+        max-width: 939px;
     }
 
     
